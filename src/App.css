@@ -2,6 +2,8 @@
   font-family: "Kumbh Sans", sans-serif;
 }
 
+/* Header Container */
+
 .header-container {
   background-image: url("./assets/background.jpg");
   background-position: center;
@@ -49,6 +51,7 @@ a:hover {
 button {
   padding: 1rem 2rem;
   font-weight: 700;
+  font-size: 1rem;
   color: white;
   background-color: transparent;
   border: 1px solid white;
@@ -64,3 +67,18 @@ button:hover, button:focus {
   background-color: white;
   border: 1px solid rgba(0,0,255, 0.65);
 }
+
+ /* Middle Container */
+
+ .middle_container {
+   padding: 80px 0;
+   display: flex;
+   justify-content: space-evenly;
+ }
+
+ .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: blue;
+ }
