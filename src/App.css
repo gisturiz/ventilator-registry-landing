@@ -22,7 +22,7 @@
 .navbar {
   display: flex;
   justify-content: flex-end;
-  padding: 20px;
+  padding: 20px 50px;
   color: white;
 }
 
@@ -44,7 +44,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 0 60px;
+  padding: 0 6rem;
   color: white;
 }
 
@@ -81,4 +81,5 @@ button:hover, button:focus {
   flex-direction: column;
   align-items: center;
   color: blue;
+  line-height: 1.5rem;
  }
