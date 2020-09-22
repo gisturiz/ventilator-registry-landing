@@ -7,7 +7,7 @@ export default function Middle() {
     return (
         <div className="middle_container">
             <div className="container">
-                <h2>Geolocation</h2>
+                <h2>Mapping</h2>
                 <img src={Pin} alt="map pin" style={{ 'height': '70px' }} />
                 <p>Easily view your network's ventilator <br/>supply on an interactive map.</p>
             </div>
