@@ -83,3 +83,36 @@ button:hover, button:focus {
   color: blue;
   line-height: 1.5rem;
  }
+
+ /* Lower Container */
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 40px 80px;
+  background: blue;
+  color: white;
+  line-height: 1.5rem;
+}
+
+.top-wrapper {
+  height: 40vh;
+  border: 1px solid red;
+}
+
+.bottom-wrapper {
+  height: 40vh;
+  display: flex;
+  justify-content: flex-end;
+  height: 40vh;
+  border: 1px solid yellow;
+}
+
+.first-section {
+  width: 40vw;
+}
+
+.second-section {
+  width: 40vw;
+}

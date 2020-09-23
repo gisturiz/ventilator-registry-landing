@@ -4,6 +4,7 @@ import './App.css';
 // Components
 import Header from './components/Header';
 import Middle from './components/Middle';
+import Bottom from './components/Lower';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <Middle />
+      <Bottom />
     </div>
   );
 }
