@@ -1,4 +1,5 @@
 import React from "react";
+import registry from '../assets/registry.png';
 
 export default function Lower() {
   return (
@@ -12,6 +13,7 @@ export default function Lower() {
             make critical decisions that will help save lives.
           </p>
         </div>
+        <img src={registry} alt="registry window" />
       </div>
       <div className="bottom-wrapper">
         <div className="second-section">
