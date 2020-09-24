@@ -1,5 +1,6 @@
 import React from "react";
 import registry from '../assets/registry.png';
+import map from '../assets/map.png';
 
 export default function Lower() {
   return (
@@ -13,9 +14,10 @@ export default function Lower() {
             make critical decisions that will help save lives.
           </p>
         </div>
-        <img src={registry} alt="registry window" />
+        <img className="images" src={registry} alt="registry window"/>
       </div>
       <div className="bottom-wrapper">
+      <img className="images" src={map} alt="registry window"/>
         <div className="second-section">
           <h2>Visibility, Data, Insight</h2>
           <p>
