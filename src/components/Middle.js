@@ -5,7 +5,7 @@ import Analytics from '../assets/005-analytics.svg';
 
 export default function Middle() {
     return (
-        <div className="middle_container">
+        <div className="middle_container" id="benefits">
             <div className="container">
                 <h2>Mapping</h2>
                 <img src={Pin} alt="map pin" style={{ 'height': '70px' }} />

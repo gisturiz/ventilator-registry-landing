@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   font-family: "Kumbh Sans", sans-serif;
 }
@@ -120,11 +124,21 @@ button:hover, button:focus {
 }
 
 .images {
-  display: block;
   max-width: 600px;
   max-height: 500px;
   width: auto;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 15vh;
+  background: #00003b;
+  color: white;
+  font-size: 0.8em;
+  border-top: 1px solid white;
 }

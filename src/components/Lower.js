@@ -4,7 +4,7 @@ import map from '../assets/map.png';
 
 export default function Lower() {
   return (
-    <div className="main-wrapper">
+    <div className="main-wrapper" id="features">
       <div className="top-wrapper">
         <div className="first-section">
           <h2>One Stop Ventilator Registry</h2>
