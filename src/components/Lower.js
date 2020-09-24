@@ -22,7 +22,7 @@ export default function Lower() {
           <h2>Visibility, Data, Insight</h2>
           <p>
             Real time mapping and data analysis tools for querying will allow
-            your network to have critical insights. Empowered with this information, you can better educated decisions.
+            your network to have critical insights. Empowered with this information, you can make better-informed decisions.
           </p>
         </div>
       </div>
