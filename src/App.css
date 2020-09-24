@@ -140,5 +140,5 @@ button:hover, button:focus {
   background: #00003b;
   color: white;
   font-size: 0.8em;
-  border-top: 1px solid white;
+  border-top: 1px solid #a4a4a4;
 }
