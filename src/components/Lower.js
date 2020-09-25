@@ -14,10 +14,14 @@ export default function Lower() {
             make critical decisions that will help save lives.
           </p>
         </div>
-        <img className="images" src={registry} alt="registry window"/>
+        <div className="image-container">
+          <img className="images" src={registry} alt="registry window" />
+        </div>
       </div>
       <div className="bottom-wrapper">
-      <img className="images" src={map} alt="registry window"/>
+        <div className="image-container">
+          <img className="images" src={map} alt="registry window" />
+        </div>
         <div className="second-section">
           <h2>Visibility, Data, Insight</h2>
           <p>

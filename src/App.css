@@ -19,7 +19,6 @@ html {
 
 .header-overlay {
   background-color: rgba(0,0,255, 0.65);
-  /* opacity: 0.65; */
   height: 100%;
 }
 
@@ -80,12 +79,41 @@ button:hover, button:focus {
    justify-content: space-evenly;
  }
 
+ @media(max-width: 600px) {
+  .navbar {
+    justify-content: center;
+  }
+
+  .middle_container{
+    flex-direction: column;
+  }
+
+  .images {
+    display: none;
+  }
+
+  .top-wrapper {
+    height: 30vh !important;
+  }
+
+  .bottom-wrapper {
+    height: 30vh !important;
+  }
+
+}
+
  .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 20px;
   color: blue;
   line-height: 1.5rem;
+ }
+
+ .icon {
+   max-height: 70px;
+   width: auto;
  }
 
  /* Lower Container */
@@ -108,7 +136,6 @@ button:hover, button:focus {
 }
 
 .bottom-wrapper {
-  height: 40vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -116,17 +143,21 @@ button:hover, button:focus {
 }
 
 .first-section {
-  width: 35vw;
+  margin: 0 30px;
+  min-width: 35vw;
 }
 
 .second-section {
-  width: 35vw;
+  margin: 0 30px;
+  min-width: 35vw;
+}
+
+.image-container {
+  max-width: 850px;
 }
 
 .images {
-  max-width: 600px;
-  max-height: 500px;
-  width: auto;
+  max-width: 100%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
