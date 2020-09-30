@@ -153,7 +153,7 @@ button:hover, button:focus {
 }
 
 .image-container {
-  max-width: 850px;
+  max-width: 40vw;
 }
 
 .images {
